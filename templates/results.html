@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Ranks </title>
+    
+</head>
+
+<body>
+    <h1>Resume Ratings </h1>
+    <table border="1">
+        <tr>
+            <th>Resume Name</th>
+            <th>Candidate Name</th>
+            <th>Candidate Email</th>
+            <!--<th>Educational Qualification</th>-->
+            <!--<th>Skills</th>-->
+            
+            <th>Star Rating</th>
+            
+        </tr>
+        {% for result in results %}
+            <tr>
+                <td>{{ result.resume_name }}</td>
+                <td>{{ result.star_rating[0] }}</td>
+                <td>{{ result.star_rating[1] }}</td>
+                <!--<td>{{ result.star_rating[2] }}</td> -->
+                <!--<td>{{ result.star_rating[3] }}</td>-->
+                <td>{{ result.star_rating[4]}}</td>
+                
+
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>
+
