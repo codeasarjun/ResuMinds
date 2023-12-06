@@ -19,4 +19,10 @@ Step 3 User will able to see the basic insights of all upload resumes and rating
 
 <h1>For more info about user guide and installation guide please read the project report</h1>
 
+<h3>Folder Structure</h3>
+  Resume Parser
+      core -  all the supporting functions
+      images - visual view of app
+      raw_resumes -will have all the resumes and JD
+      templates - all the html files
 
