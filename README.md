@@ -1,7 +1,18 @@
-# Resume-Parser
-This repo contains a working version of resume parser, a simple tool to give insights of candidates resumes in few clicks.
+# ResuMinds 📝💡
+ResuMinds is a project aimed at assisting HR professionals and users in ranking resumes based on their relevance to a job description (JD). Users can upload both the JD and candidate resumes, and the system will rank the resumes according to their compatibility with the provided JD.
 
-A basic flask web application where ---
+# Technologies Used
+Flask 🌐: Flask is a lightweight web framework for Python, used here to build the backend of the application. It provides flexibility and simplicity in developing web applications.
+Python 🐍: Python is the primary programming language used for developing the backend logic of ResuMinds. Its extensive libraries and readability make it suitable for various tasks, including data processing and analysis.
+
+# Methodology
+The project utilizes a matching algorithm to assess the compatibility of resumes with the provided JD. The algorithm parses both the JD and candidate resumes, extracting key information such as skills, experience, and education requirements. It then compares this information to determine the relevance of each resume to the job description. Finally, the resumes are ranked based on their similarity score to the JD, with the most relevant ones appearing at the top of the list.
+
+**Usage**
+Upload JD :arrow_up: Start by uploading the job description (JD) by clicking on the corresponding button.<br>
+Upload Resumes :arrow_up: After uploading the JD, proceed to upload candidate resumes.<br>
+Ranking :1234: Once all resumes are uploaded, the system will automatically rank them based on their compatibility with the JD.<br>
+View Results :eyes: Users can then view the ranked list of resumes, with the most suitable candidates listed at the top.<br>
 
 Step 1 User need to upload the resumes and job description to the portal.
 
@@ -19,7 +30,27 @@ Step 3 User will able to see the basic insights of all upload resumes and rating
 
 <h1>For more info about user guide and installation guide please read the project report</h1>
 
-<h3>Folder Structure</h3>
+📁 resuminds
+├── 📁 core
+│   ├── 📄 extract_name.py
+│   └── 📄 extract_skills_education.py
+├── 📁 images
+├── 📁 raw_resumes
+├── 📁 templates
+│   ├── 📄 index.html
+│   └── 📄 results.html
+├── 📄 app.py
+└── 📄 README.md
+
+images: Folder for storing images related to the project.<br>
+raw_resumes: Folder for storing raw resumes uploaded by users.<br>
+
+
+
+# Future Enhancements
+Implement a more sophisticated matching algorithm to improve accuracy.
+Enhance the user interface for better user experience.
+Integrate additional features such as keyword highlighting and candidate filtering options.
   Resume Parser<br>
         core -  all the supporting functions<br>
         images - visual view of app<br>
