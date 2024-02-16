@@ -28,7 +28,7 @@ Step 3 User will able to see the basic insights of all upload resumes and rating
 <!--<img src="https://github.com/codeasarjun/Resume-Parser/blob/main/images/result_page.png">-->
 <hr>
 
-<h1>For more info about user guide and installation guide please read the project report</h1>
+
 
 📁 resuminds<br>
 ├── 📁 core<br>
