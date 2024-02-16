@@ -30,17 +30,17 @@ Step 3 User will able to see the basic insights of all upload resumes and rating
 
 <h1>For more info about user guide and installation guide please read the project report</h1>
 
-📁 resuminds
-├── 📁 core
-│   ├── 📄 extract_name.py
-│   └── 📄 extract_skills_education.py
-├── 📁 images
-├── 📁 raw_resumes
-├── 📁 templates
-│   ├── 📄 index.html
-│   └── 📄 results.html
-├── 📄 app.py
-└── 📄 README.md
+📁 resuminds<br>
+├── 📁 core<br>
+│   ├── 📄 extract_name.py<br>
+│   └── 📄 extract_skills_education.py<br>
+├── 📁 images<br>
+├── 📁 raw_resumes<br>
+├── 📁 templates<br>
+│   ├── 📄 index.html<br>
+│   └── 📄 results.html<br>
+├── 📄 app.py<br>
+└── 📄 README.md<br>
 
 images: Folder for storing images related to the project.<br>
 raw_resumes: Folder for storing raw resumes uploaded by users.<br>
