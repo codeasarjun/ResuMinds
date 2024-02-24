@@ -25,7 +25,7 @@ Step 2 User will redirect to the result page after button click.
 Step 3 User will able to see the basic insights of all upload resumes and rating for it, based on given job description.
 
 <hr>
-<!--<img src="https://github.com/codeasarjun/Resume-Parser/blob/main/images/result_page.png">-->
+<img src="https://github.com/codeasarjun/Resume-Parser/blob/main/images/result_page.png">
 <hr>
 
 
